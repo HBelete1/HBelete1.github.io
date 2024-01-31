@@ -1,0 +1,150 @@
+body {
+    margin: 0; 
+    background-color:lightblue;
+}
+nav {
+    background-color:beige;
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: right;
+}
+nav a {
+    border: 5px double;
+    background-color:lightblue ;
+}
+
+a:hover {
+    background-color:beige ;
+}
+
+footer {
+    background-color:darkturquoise;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    border: 3px solid;
+    background-color: lightblue;
+    font-size: large;
+}
+
+footer a:hover {
+    background-color:bisque;
+}
+
+.intro{
+    background-color: darkturquoise;
+    padding:7px;
+    font-family: epicFont;
+    color:blanchedalmond;
+    text-align:center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.more{
+    background-color: beige;
+    padding: 7px;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+h3 {
+    font-family: boldFont;
+    color:cadetblue;
+    text-align: center;
+    
+}
+.more h2 {
+    text-align: center;
+}
+.more dl{
+    text-align: center;
+}
+.more li{
+    text-align: center;
+}
+.intro img{
+    position:absolute;
+    left:30px;
+    top:100px;
+    border-radius: 40px;
+}
+.intro div img{
+    position:absolute;
+    left: 1125px;
+    top: 100px;
+}
+.more img{
+    position:relative;
+    left:530px;
+    top: 13px;
+    
+}
+.card{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(210, 155, 83);
+    outline: 20px;
+    transition: 0.3s;
+    padding: 50px;
+    
+}
+.three-col{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    
+
+}
+.card img{
+    position:relative;
+    left: 10px;
+}
+
+.card div ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-style{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+
+}
+.history{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 20px;
+
+}
+.skills{
+    display: grid;
+    grid-template-columns: 50px 175px;
+    column-gap: 20px;
+    row-gap: 5px;
+}
+.fo{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(210, 155, 83);
+    outline: 20px;
+    transition: 0.3s;
+    padding: 50px;
+}
+.one-col{
+    display: grid;
+    grid-template-columns: 800px;
+    row-gap: 20px;
+    
+}
+.one-col input{
+    background-color: blanchedalmond;
+}
+.one-col textarea{
+    background-color: blanchedalmond;
+}
